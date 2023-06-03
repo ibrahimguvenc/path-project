@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Ubuntu", sans-serif;
+}
+.header {
+  padding: 20px;
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  opacity: 0.8;
+  padding: 15px;
+  color: black;
+}
+.left ul li a:hover,
+.right ul li a:hover {
+  text-decoration: underline;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.icon {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+.icon:hover {
+  opacity: 1;
+}
+.sign-in {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 5vh;
+  cursor: pointer;
+}
+main {
+  /* position: relative;
+  display: inline; */
+  margin-top: 200px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.search {
+  width: 580px;
+  height: 50px;
+  margin: 30px 0;
+  margin: auto;
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+.search .input {
+  width: 430px;
+  height: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+/* .search img {
+  width: 30px;
+} */
+.search img {
+  vertical-align: middle;
+  margin-top: 5px;
+}
+.search .img-1 {
+  padding-top: 4px;
+  float: left;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.search .mic {
+  vertical-align: middle;
+  float: right;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+.nav-link {
+  margin-top: 50px;
+}
+
+.nav-link a {
+  background-color: #bfbfbf;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding: 20px 15px;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-link a:hover {
+  color: #4285f4;
+  opacity: 0.8;
+}
+
+.languages {
+  margin-top: 50px;
+}
+.languages p {
+  font-size: 1.2rem;
+}
+.languages a {
+  color: black;
+  text-decoration: underline;
+}
+.languages a:hover {
+  color: #4285f4;
+}
+footer {
+  background-color: #e1e1e1;
+  color: black;
+  margin-top: 250px;
+}
+.footer-tr {
+  border-bottom: 2px solid #787777;
+  margin-left: 15px;
+  padding: 8px 0;
+  height: 35px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-left ul,
+.footer-nav-right ul {
+  display: flex;
+  padding: 10px 0;
+}
+.footer-nav-left ul li,
+.footer-nav-right ul li {
+  margin-right: 15px;
+}
+
+.footer-nav-left ul li a,
+.footer-nav-right ul li a {
+  font-size: 1rem;
+}
+.footer-nav-left ul li a:hover,
+.footer-nav-right ul li a:hover {
+  color: #4285f4;
+}

@@ -1,0 +1,118 @@
+:root {
+  --red: #dc3545;
+}
+/*! -------------- 1- NAVBAR ---------------- */
+/* .navbar {
+    background-color: seashell;
+  } */
+.navbar .navbar-nav {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.navbar .nav-link {
+  transition: color 0.7;
+}
+.navbar .nav-link:hover {
+  color: var(--red);
+}
+
+/*! ------------- 2- CAROUSEL --------------- */
+.carousel-item {
+  max-height: calc(100vh - 88px);
+}
+.carousel-caption h5 {
+  color: var(--red);
+  text-shadow: 3px 3px 3px black;
+  font-size: 2.4rem;
+}
+.carousel-caption p {
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+.carousel-caption .btn {
+  width: 7rem;
+  height: 3rem;
+}
+.carousel-caption {
+  bottom: 9rem;
+}
+
+.carousel-indicators {
+  gap: 1rem;
+}
+/*! Bootstrap tarafından verilen stilleri ezmek için !important kullanılması gerekir  */
+.carousel-indicators button {
+  background-color: var(--red) !important;
+  height: 0.4rem !important;
+  width: 5rem !important;
+}
+
+/*? row = Sütun  */
+/*? Col = Satır */
+
+/*! ------------ 3- ABOUT SECTION ----------- */
+
+/*! ------------- 4- INSTRUCTORS -------------*/
+
+section#instructors .card {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+section#instructors .card:hover {
+  transform: scale(1.04);
+}
+
+section#instructors i {
+  transition: opacity 0.5s;
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+/*! ----------- 4- STUDENTS SECTION ----------*/
+
+/*! ----------- 5- COURSES SECTION ----------- */
+.nav-pills .nav-link.active {
+  background-color: var(--red);
+}
+.nav-pills .nav-link {
+  color: white;
+}
+
+/*! ----------- 6- CONTACT SECTION ------------ */
+
+/*! --------------- 7- FOOTER ----------------- */
+
+footer i {
+  margin-right: 0.8rem;
+  cursor: pointer;
+  transition: color 0.5s;
+  &:hover {
+    color: var(--red);
+  }
+}
+
+.btn-up {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: var(--red);
+  color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.3rem;
+  transition: all 0.4s;
+
+  &:hover {
+    transform: scale(1.2);
+    color: black;
+    font-size: 1.4rem;
+  }
+}

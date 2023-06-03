@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "DynaPuff", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+.header {
+  background: linear-gradient(#e66465, #9198e5);
+  width: 100%;
+}
+header img {
+  width: 85px;
+  margin: 24px 30px;
+}
+
+.login {
+  width: 10px;
+  float: right;
+  margin-right: 220px;
+}
+.login ul {
+  display: flex;
+  align-items: center;
+}
+.login ul li {
+  margin: 40px 6px;
+  padding: 25px 0;
+}
+.login ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.login ul li a:hover {
+  text-decoration: underline;
+}
+
+.bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(#ebf8e1, #f69d3c);
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar a {
+  padding-right: 25px;
+  text-decoration: none;
+  color: black;
+  font-family: "DynaPuff", cursive;
+}
+.img {
+  width: 100%;
+  height: 550px;
+  background-image: url(./img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img h2 {
+  color: white;
+  font-size: 4rem;
+  padding-top: 250px;
+  margin-left: 75px;
+  font-family: "Open Sans", sans-serif;
+}
+.img p {
+  font-family: "Open Sans", sans-serif;
+
+  margin-left: 75px;
+  padding-top: 5px;
+  color: red;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.3);
+}
+.img-a {
+  margin-top: 15px;
+  margin-left: 75px;
+}
+.img-a a {
+  text-decoration: none;
+  color: black;
+  background-color: #d9afd9;
+  border: 10px solid #d9afd9;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+}
+.img-a a:hover {
+  opacity: 0.8;
+}
+section {
+  margin: 20px 80px;
+}
+section p {
+  margin: auto;
+  margin: 20px 50px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  color: red;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+  outline: 3px solid red;
+  outline-offset: 3px;
+  color: white;
+}
