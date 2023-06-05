@@ -119,6 +119,8 @@ const openModal = () => {
   }
 };
 
+console.log("-");
+
 //! İlkel yöntem
 // //? Resimler
 // const rockImg = document.getElementById("rock");
